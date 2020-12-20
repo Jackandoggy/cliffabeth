@@ -39,9 +39,9 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`Hi..Welcome` 👀
-`I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
-`I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
+🙋Hello {}, My Name is {} !
+I'm a powerful group management bot 🤖 [Harita](https://telegra.ph/file/bfc6d21b24e9af9c79a62.png)
+I'm here to help you manage your groups. Click Help button to find out more about how to use me to my full potential.
 """
 
 buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
@@ -49,7 +49,7 @@ buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
 ]]
 
 buttons += [[InlineKeyboardButton(text="🌍 ADD ME TO YOUR GROUP 🌍",
-                                  url="t.me/Elizabeth_TgBot?startgroup=true"),
+                                  url="t.me/HaritaRoBot?startgroup=true"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="💾SOURCE CODE",
